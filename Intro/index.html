@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo CSS3</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+		h1 {color:red;} /*Selector por tipo*/
+		p {color:orange;}
+		section {border : 3px solid black;}
+		#principal {border : 5px solid green;} /*Selector por Id*/
+		#principal p {font-size: 24px; border: 10px solid blue;} /*Seleccionamos solos p que esten dentro de la id principal
+		.main-block {border : 7px solid blue;} /* Selector por Clase*/
+		#principal > p {font-size: 24px; border: 10px solid blue;} /*Solo los hijos directos*/
+		#principal h2 ~ p {font-size: 12px; padding: 5px; color: violet;}
+		section, div {margin: 10px; padding: 10px;} /* seleccionamos todos los sections y divs*/
+		section div {margin: 10px; padding: 10px;} /* todos los divs q esten dentro de los section*/
+		a {font-size: 30px;background: green;}
+		a[target] {border: 2px solid red; background: yellow;}
+		a[href="www.google.com"] {background: red;}
+		a[href*="google"] {background: red;} /*que contiene*/
+		a[href^="https://"] {background: violet;} /*que empieze*/
+		a:hover {font-size: 60px;} /*se amplia al pasar por encima*/
+
+	</style>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<h1 style="color:green">
+			<ul>
+			    <li><a href="#" target="_blank">Menu1</a></li>
+				<li><a href="www.google.com">Menu2</a></li>
+				<li><a href="https://www.yahoo.es">Menu3</a></li>
+				<li><a href="www.google.es">Menu4</a></li>
+			</ul>
+		</h1>
+	</header>
+	
+</body>
+	<main>
+		<section id="principal" class="main-block">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis animi est sed nulla obcaecati dolore laborum porro omnis aliquid possimus!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis itaque soluta, mollitia eveniet eos maxime voluptatum quod praesentium veritatis saepe eligendi, tempora vel voluptatibus esse architecto voluptates dolor unde.</p>
+		</section>
+		<section class="main-block">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis animi est sed nulla obcaecati dolore laborum porro omnis aliquid possimus!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis itaque soluta, mollitia eveniet eos maxime voluptatum quod praesentium veritatis saepe eligendi, tempora vel voluptatibus esse architecto voluptates dolor unde.</p>
+		</section>
+		<section id="principal">
+		  <h2>Karine Arritola</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis animi est sed nulla obcaecati dolore laborum porro omnis aliquid possimus!</p>
+			<div>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis itaque soluta, mollitia eveniet eos maxime voluptatum quod praesentium veritatis saepe eligendi, tempora vel voluptatibus esse architecto voluptates dolor unde.</p>
+			</div>
+		</section>
+	</main>
+</html>

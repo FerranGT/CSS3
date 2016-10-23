@@ -1,0 +1,67 @@
+body{
+	width: 900px;
+	background-color: #c8e5ff;
+	margin: 0 auto;
+}
+.sidebar{
+	float: right;
+	width: 20%;
+	margin-top: -20px;
+	margin-right: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #e7f5ff;
+	font-size: 19px;
+	color: #cbb29b;
+
+}
+.sidebartext{
+	margin-top: -20px;
+	font-size: 18px;
+	color: #cbb29b;
+}
+.main{
+	float: left;
+	width: 70%;
+}
+h1{
+	color: #b69679;
+	margin-top: -20px;
+	font-weight: bold;
+	padding-left: 50px;
+	font-size: 50px; 
+}
+.mainheader{
+	margin-top: -20px;
+	padding-left: 50px;
+	font-size: 20px; 
+	color: #6994ce;
+}
+h2{
+	color: #f29e5a;
+	margin-left: 50px;
+	margin-top: -5px;
+	padding-left: 60px;
+	padding-bottom: 5px;
+	font-size: 30px; 
+	border-bottom: 2px white solid;
+	background-image: url("img/bullet_flower.png");
+	background-repeat: no-repeat;
+}
+.section{
+	color: grey;
+	margin-left: 50px;
+	padding-left: 60px;
+	font-size: 20px;
+	margin-top: -15px;
+}
+h3{
+	color: grey;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
+
+
+

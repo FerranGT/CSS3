@@ -1,0 +1,42 @@
+.maincontainer{
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 120px;
+}
+.photo{
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	color: #c68100;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 15px;
+}
+h2{
+	color: #c68100;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 15px;
+}
+h3{
+	color: #c68100;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.container{
+	color: #ff6f00;
+	border-left: 15px orange solid;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.list{
+	color: #c68100;
+	font-size: 13px;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-left: 30px;
+	list-style: circle; 
+}

@@ -1,0 +1,86 @@
+header{
+	background-color: #200AEF;
+	color: white;
+	font-size: 35px;
+}
+aside{
+	float: left;
+	width: 150px;
+	height: 725px;
+	margin-right: 15px;
+}
+.list{
+	background-color: #bedb82;
+	color:red;	
+}
+.textaside{
+	background-color: #00ffff;
+	padding: 10px;
+}
+
+li{
+	border-bottom: 1px solid black; 
+	padding: 2px;
+	padding-left: 25px !important;/*Hace mas importante este style que todos los demas*/
+	font-weight: bold;
+}
+
+.list a{
+	text-decoration: none;
+	color:red;
+}
+
+.textaside p{
+	padding: 5px;
+}
+
+
+img{
+	width: 275px;
+	float: left;
+	margin-right: 10px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 25px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 17px;
+	font-weight: bold;
+}
+.mainbodytitle{
+	margin: 15px;
+	font-weight: bold;
+}
+.mainbody{
+	margin: 15px;
+}
+.mainbody a{
+	font-weight: bold;
+}
+.photo{
+	float: right;
+	margin-left: 10px;
+}
+footer{
+	background-color: #172099;
+	color:white;
+	font-size: 10px;
+	padding: 7px;
+	border-bottom: 5px solid green;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+

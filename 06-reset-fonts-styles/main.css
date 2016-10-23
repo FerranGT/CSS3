@@ -1,0 +1,26 @@
+body{
+	background-image: url("img/bg_banner.jpg");
+	background-color: #dfeefe;
+}
+header{
+	background-image: url("img/bg_banner.jpg");
+	margin:0 auto;
+	border-radius: 5px solid white;
+}
+h1{
+	font-family: 'PTSans';
+	font-weight: bold;
+	color: white;
+	font-size: 10px;
+}
+.maintitle{
+	font-weight: bold;
+	color: orange;
+	font-size: 30px;
+}
+.main{
+	margin:0 auto;
+	border-radius: 5px solid white;
+	display: inline-block;
+}
+

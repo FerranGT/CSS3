@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=320, initial-scale=0.5">
+	<title>Document</title>
+	<style>
+
+	/* #88b2f7 =>  blue google*/
+	/* #fbbc05 =>  yellow google*/
+
+
+	* {
+		box-sizing: border-box;
+	}
+
+	.container {
+		border: 1px solid blue;
+		width:90%;
+		margin: 10px auto;
+	}
+
+	.container > section {
+		background: #88b2f7;
+		padding: 10px;
+		width: 70%;
+		float:left;
+	}
+
+	.container > aside {
+		background: #fbbc05;
+		padding: 10px;
+		width: 30%;
+		float:right;
+	}
+
+	section img {
+		float: left;
+		margin-right: 10px;
+	}
+
+	header ul li a {
+		text-decoration: none;
+		padding: 5px;
+		display:block;
+	}
+
+	header ul li:hover {
+		background: black;
+	}
+
+	header ul li:hover a {
+		color:white;
+	}
+
+	header ul li {
+		display: inline-block;
+	}
+
+	header ul {
+		position:absolute;
+		right: 30px;
+		top:0;
+	}
+
+	header {
+		position: relative;
+		border-bottom: 1px solid #ccc;
+	}
+
+	footer {
+		clear:both;
+	}
+
+	footer p {
+		text-align: center;
+		padding: 10px
+	}
+
+	@media (max-width: 700px) {
+
+
+		.container > section,
+		.container > aside {
+			width: 100%
+		}
+	}
+
+	@media (max-width: 600px) {
+		header ul {
+			position: static;
+			padding:0;
+
+		}
+		header ul li {
+			display: block;
+			text-align: center;
+			padding: 5px;
+			font-size:20px;
+
+		}
+		header h1 {
+			text-align: center;
+		}
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1>Ellis Ramin</h1>
+			<ul>
+					<li><a href="#">Menu 01</a></li>
+					<li><a href="#">Menu 02</a></li>
+					<li><a href="#">Menu 03</a></li>
+					<li><a href="#">Menu 04</a></li>
+					<li><a href="#">Menu 05</a></li>
+			</ul>
+		</header>
+		<section>
+
+			<img width="300px" src="http://66.media.tumblr.com/b46755ce8132f94072dc11ff1bc521f2/tumblr_o9c27npEFz1st5lhmo1_1280.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam non aliquid, porro alias vel voluptatibus nesciunt eaque error accusamus magnam ut natus necessitatibus, excepturi dolorem cupiditate voluptatum harum officia? Quia accusamus excepturi in expedita corporis, laboriosam voluptatem id error reprehenderit officia necessitatibus enim itaque consequuntur quos iure vero voluptatum vel inventore sapiente asperiores. Molestias quo nemo officiis pariatur ab nostrum, ullam ratione similique sit eligendi voluptatum numquam, iure natus iusto fuga aperiam officia beatae ipsum accusamus aspernatur. Dolores deleniti fugit animi consectetur, vel veniam soluta facere quibusdam minima ipsum, labore rem illum architecto? Labore accusantium, ullam. Libero alias ad dolorem.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic porro sequi commodi obcaecati eum! Tenetur natus doloremque dolor, incidunt ex mollitia optio tempora autem dignissimos ut commodi consequatur sapiente pariatur, repudiandae vero enim! Commodi iure voluptatibus dolorum a, quas alias nostrum, nulla, nobis vel repellendus ipsa nisi animi est molestiae!</p>
+		</section>
+		<aside>
+			<section>
+				<h2>Visit other links</h2>
+				<ul>
+					<li><a href="#">Link 01</a></li>
+					<li><a href="#">Link 02</a></li>
+		
